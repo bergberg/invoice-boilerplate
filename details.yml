@@ -1,49 +1,61 @@
 ---
-invoice-nr: 2015-11-04
-author: Max Mustermann
-city: Musterstadt
+invoice-nr: 2022-12-31
+author: Pieter van den Berg
+city: Amsterdam
 from:
-- Musterstraße 37
-- 12345 Musterstadt
+- Tweede Oosterparkstraat 138
+- 1092 BP Amsterdam
 to:
-- Erika Mustermann
-- Musterallee 1
-- 12345 Musterstadt
-- Germany
-VAT: 20
+- Quant Professionals B.V.
+- Paardenbloemsingel 61
+- 3452 BT Vleuten
+VAT: 21
 service:
-- description: The first service provided
-  price: 320.00
-  details:
-- description: And another one, with a list of details
-  price: 245.00
-  details:
-    - Some more detailed explanation
-    - of the service provided
-    - Looking good
-- description: The last service provided
-  price: 65.00
+# - description: Rabobank Corporate Validation (April 2022)
+#   price: 3997.50
+#   details: 20.5 hr at 195 / hr (excl. VAT)
+# - description: Rabobank Corporate Validation (May 2022)
+#   price: 4387.50
+#   details: 22.5 hr at 195 / hr (excl. VAT)
+# - description: Rabobank Corporate Validation (June 2022)
+#   price: 8385.00
+#   details: 43 hr at 195 / hr (excl. VAT)
+# - description: Rabobank Corporate Validation (July 2022)
+  # price: 17745.00
+  # details: 91 hr at 195 / hr (excl. VAT)
+# - description: Rabobank Corporate Validation (Aug 2022)
+  # price: 8385.00
+  # details: 43 hr at 195 / hr (excl. VAT)
+# - description: Rabobank Corporate Validation (Sep 2022)
+#   price: 15015.00
+#   details: 77 hr at 195 / hr (excl. VAT)
+# - description: Rabobank Corporate Validation (Oct 2022)
+#   price: 1170.00
+#   details: 6 hr at 195 / hr (excl. VAT)
+# - description: Eduquant training Q4 2022
+#   price: 4302.00
+#   details: 40% of 9*1200 (excl. VAT)
+- description: Rabobank RRE validation (Mar 2023)
+  price: 2000.00
+  details: 10 hr at 200 / hr (excl. VAT) (excl. VAT)
 
 closingnote: |
-  Please transfer the due amount to the following bank account within the next 14 days:
+  Please transfer the amount due within 30 days to:
    
-    Mustermann GmbH  
-    Kreditinstitut: Deutsche Postbank AG  
-    IBAN: DE18 3601 0043 9999 9999 99  
-    BIC: PBNKDEFF  
+    Pieter van den Berg  
+    IBAN: DE19 1001 1001 2620 6822 28
+    BIC: NTSBDEB1XXX  
 
-    We really appreciate your business and look forward to future projects together.
-
-    Best regards,
+  Many thanks and kind regards,
 
 # Invoice settings
 currency: EUR
-# commasep: true
+commasep: true
 lang: en-GB
 
 # Typography and layout
-seriffont: Hoefler Text
-sansfont: Helvetica Neue
+seriffont: Liberation Serif
+sansfont: Liberation Sans
 fontsize: 10pt
 geometry: a4paper, left=43mm, right=43mm, top=51mm, bottom=17mm
 # letterhead: true # To include personalized letterheads
